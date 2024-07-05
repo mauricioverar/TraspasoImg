@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         imagen2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                llamar(""+R.drawable.ojo,""+R.color.black);
+                llamar(""+R.drawable.ic_bote_foreground,""+R.color.blue);
             }
         });
     }
